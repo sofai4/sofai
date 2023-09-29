@@ -1,0 +1,497 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: rgb(35, 223, 35);
+}
+
+header {
+    
+    display: flex;
+    margin-top: 20px;
+    
+   
+}
+
+header ul {
+
+    list-style: none;
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+header ul li {
+
+    padding: 15px;
+    font-family: monospace;
+    font-size: large;
+
+    
+}
+
+header h1 {
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(35, 223, 35);
+    border-radius: 20px;
+    font-size: small;
+    border: solid black  4px;
+    margin-left : 12px;
+}
+
+header h1:hover {
+   
+    transition: 200ms;
+    font-size: 2.5em;
+    
+}
+
+
+header ul li:hover {
+    transition: 200ms;
+    font-size: 2em;
+}
+
+.about {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+ 
+}
+
+.about h2 {
+    transition: 5000ms;
+    width: calc(50% / 2);
+    display: flex;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.about button {
+   
+
+    padding: 15px;
+    border: none;
+    border: solid white 1px;
+    border-radius: 10px;
+    height: 20%;
+    font-weight: bold;
+    letter-spacing: 2px;
+   
+}
+
+
+.about img {
+
+    border-radius: 30px;
+}
+
+.about h2:hover {
+    transition: 1000ms;
+    font-size: large;
+   
+} 
+
+
+.about button:hover {
+    transition: 100ms;
+    font-size: large;
+   
+} 
+
+
+.sofai  {
+
+    width: 40%;
+    margin: auto;
+    margin-top: 120px;
+    border: solid red 4px;
+    border-radius: 10px;
+}
+
+.sofai *  {
+
+
+
+    color: #e13232;
+    padding: 20px;
+
+}
+
+.sofai h3  {
+
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.lagos  {
+
+    width: 40%;
+    margin: auto;
+    margin-top: 120px;
+    border: solid #32e175 4px;
+    border-radius: 10px;
+}
+
+.lagos *  {
+
+
+
+    color: #32e175;
+    padding: 20px;
+
+}
+
+.lagos h3  {
+
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8em;
+
+}
+
+
+.lagos img {
+    border: none;
+    border-radius: 60px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-left: 24%;
+}
+
+.sofai img {
+    border: none;
+    border-radius: 328px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-left: 24%;
+}
+
+.cours {
+
+  
+   
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(58, 42, 42);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.cours img {
+
+    width: 40%;
+    height: fit-content;
+    border-radius: 30px;
+    margin-top: 30px;
+  
+    
+}
+
+.download {
+
+    width: 70%;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+    
+}
+
+.download * {
+
+   
+    padding: 20px;
+    
+}
+
+.download h5 {
+
+    margin-bottom: 90px;
+    
+}
+
+
+.download select {
+
+    width: 60%;
+    font-size: larger;
+
+   
+  
+}
+
+.lagos button {
+
+    width: 60%;
+    font-size: larger;
+    margin-left: 20%;
+    margin-top: 20px;
+
+}
+
+.sofai button {
+
+    width: 60%;
+    font-size: larger;
+    margin-left: 20%;
+    margin-top: 20px;
+
+}
+
+.download button {
+
+    width: 60%;
+    font-size: larger;
+    margin-top: 20px;
+
+   
+  
+}
+
+
+footer {
+
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    
+}
+
+/* footer .logo-footer {
+
+    width: 20%;
+    
+
+} */
+
+
+footer .links-footer {
+
+    width: calc(70% / 2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+
+}
+
+
+footer .links-footer * {
+
+    width: 50%;
+    padding: 20px;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+
+footer .contac-footer {
+
+    border: solid 5px;
+    text-align: center;
+    border-radius: 30px;
+
+}
+footer .contac-footer * {
+  
+    width: 90%;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: none;
+   
+}
+
+
+footer .contac-footer  input {
+
+    border-bottom:  solid white 1px;
+}
+
+footer .contac-footer  button {
+
+    border:  solid white 1px;
+    border-radius: 30px;
+}
+footer .contac-footer  input:focus-visible {
+    outline: none;
+    color: red;
+    text-align: center;
+    font-size: large;
+    
+}
+
+footer .contac-footer  button:hover {
+    outline: none;
+    color: red;
+    text-align: center;
+    font-size: x-large;
+    height: calc(70px);
+    
+}
+
+
+
+@media (min-width: 300px) and (max-width: 888px) {
+
+    header  {
+
+        display: block;
+    }
+
+    header ul {
+
+        display: block;
+        margin-left: 30%;
+    }
+
+     .about img {
+
+        display: none;
+
+    }
+
+    .about {
+
+        display : block;
+        
+    }
+
+    .about h2 {
+
+        display : block;
+        width: 70%;
+        margin-left: 15%;
+        font-size: 1.6em;
+        font-family: monospace;
+        margin-bottom: 50px;        
+    }
+    .sofai {
+        width: 80%;
+    } 
+    .lagos {
+        width: 80%;
+    } 
+
+    .download h5 {
+
+        font-size: 1.5em;
+    }
+    .download button {
+        width: 100%;
+    }
+
+    .download select {
+
+        width: 100%;
+    }
+    footer {
+
+        display: block;
+        padding-bottom: 20px;
+    }
+
+footer .links-footer {
+
+
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+   
+
+}
+
+footer .links-footer {
+
+
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+   
+
+}
+
+footer .links-footer * {
+
+        font-size: 1.2em;
+    
+
+}
+
+footer .contac-footer {
+
+    border: solid 5px;
+    text-align: center;
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+footer .contac-footer * {
+  
+ 
+    width: 80%;
+
+   
+   
+}
+
+footer .contac-footer p {
+  
+ 
+    font-size: 1em;
+   
+   
+}
+
+footer .contac-footer button {
+  
+ 
+    margin-bottom: 20px;
+   
+}
+
+
+
+ }
+
+
+.father strong {
+    
+
+
+ }
+
+ @media (min-width: 0px) and (max-width: 299px) {
+    
+    body  {
+        display: none;
+    }*::before {
+        content: "Sorry We Not Support This Device (:";
+    }
+
+
+
+
+ }

@@ -1,0 +1,33 @@
+.dirction {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5%;
+}
+
+.dirction ul {
+
+
+    margin-top: 5%;
+    margin-left: 10%;
+   
+}
+
+.dirction ul  li {
+
+
+    margin-top: 5%;
+    margin-left: 20%;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+    width: 100%;
+    cursor: pointer;
+   
+}
+
+.dirction ul  li:hover {
+
+
+  color: red;
+  font-size: 1.5em;
+   
+}
