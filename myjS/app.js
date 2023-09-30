@@ -14,21 +14,21 @@ function red() {
         
         if(opt.value == 'games') {
         
-            window.location.href = "/download/games.html";
+            window.location.href = "download/games.html";
         
         }
         
         
         if(opt.value == 'doc') {
         
-            window.location.href = "/download/doc.html";
+            window.location.href = "download/doc.html";
         
         }
         
         
         if(opt.value == 'res') {
         
-            window.location.href = "/download/res.html";
+            window.location.href = "download/res.html";
         
         }
 
